@@ -1,0 +1,26 @@
+1679302622043	Delete element
+1679303228840	Move file
+1679304709248	Delete element
+1679354957559	Extract interface 'BoardDao2'
+1679355002323	Rename type 'BoardDao'
+1679355026213	Rename type 'BoardDao2'
+1679355637259	Move compilation unit
+1679380040848	Delete element
+1679380328306	Extract interface 'BoardDaoImpl'
+1679380378425	Rename type 'BoardDaoImpl'
+1679380394465	Rename type 'BoardDao'
+1679380409233	Rename type 'BoardDaoImpl1'
+1679380962822	Delete element
+1679382381227	Delete element
+1679382756022	Move compilation unit
+1679382819425	Move compilation unit
+1679383377251	Delete element
+1679384082408	Delete element
+1679384128534	Delete element
+1679384306975	Delete element
+1679384617603	Delete element
+1679482622780	Delete element
+1679482652030	Extract interface 'BoardDao'
+1679483387187	Delete element
+1679483628523	Extract interface 'BoardService'
+1679643258148	Copy file

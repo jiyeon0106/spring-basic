@@ -1,0 +1,28 @@
+package com.fastcampus.ch4.controller;
+
+import com.fastcampus.ch4.domain.*;
+
+import java.util.HashMap;
+
+import org.springframework.stereotype.*;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class SimpleRestController {
+
+	/*
+	 * @PostMapping("/send") public Person test2(@RequestBody Person p) {
+	 * System.out.println("p = " + p); p.setName("ABC"); p.setAge(p.getAge() + 10);
+	 * 
+	 * return p; }
+	 */
+	
+	@PostMapping("/send")
+	public String test2(@RequestParam String p) {
+		System.out.println("p = " + p);
+		/*
+		 * p.setName("ABC"); p.setAge(p.getAge() + 10);
+		 */
+		return p;
+	}
+}

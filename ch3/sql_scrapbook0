@@ -1,0 +1,9 @@
+select * from user_info; --ctrl+/는 주석(토글)
+
+insert into user_info (id, pwd, name, email, birth, sns, reg_date)
+values ('asdf', '1234', 'smith', 'aaa@aaa.com', '2021-01-01', 'facebook', now());
+
+delete from user_info;
+
+create table b1 select * from a1 where false; --테이블만 생성
+create table b1 select * from a1; --테이블 생성 & 데이터 복사

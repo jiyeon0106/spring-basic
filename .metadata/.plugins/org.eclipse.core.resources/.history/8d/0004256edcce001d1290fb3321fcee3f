@@ -1,0 +1,30 @@
+package com.fastcampus.ch4.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.fastcampus.ch4.domain.CommentDto;
+import com.fastcampus.ch4.service.CommentService;
+
+@Controller
+public class CommentController {
+	@Autowired
+	CommentService service;
+
+	// 지정된 게시물의 모든 댓글을 가져오는 메소드
+	@GetMapping("/comments") // /comments?bno=1080 GET
+	@ResponseBody
+	public List<CommentDto> list(Integer bno) {
+		List<CommentDto> list = null;
+		try {
+			list = service.getList(bno);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return list;
+	}
+}

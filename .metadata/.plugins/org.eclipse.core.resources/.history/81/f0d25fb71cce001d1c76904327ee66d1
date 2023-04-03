@@ -1,0 +1,14 @@
+package com.fastcampus.ch4.dao;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CommentDaoImplTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

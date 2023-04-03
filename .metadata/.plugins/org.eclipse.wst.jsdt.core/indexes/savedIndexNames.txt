@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+D:\fast-campus\workspace-sts-3.9.17.RELEASE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3351188318.index
+2090840912.index
+2925534725.index
+792109073.index
+4006255559.index
+2415766096.index
+1721634661.index
+4159662583.index
+2422016212.index
+4177173190.index
